@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+:root{
+    --btn-color:#e58f00;
+    --about-sec:#1d1d23;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.5s;
+    text-transform: capitalize;
+    background-color: #1d1d23   ;
+}
+html{
+    font-size: 65%;
+    scroll-behavior: smooth;
+}
+.header{
+    padding: 1rem 7%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background:#1d1d23;
+    border-bottom: 5px solid #e58f00;
+}
+.logo{
+    display: flex;
+    padding-right: 10px;
+}
+.logo img{
+    width: 65px;
+    height: 55px;
+}
+.logo h3{
+    width: 90px;
+    font-size: 40px;
+    color: #e58f00;
+    margin-top: 10px;
+}
+
+nav {
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    position: relative;
+    list-style-type: none;
+}
+
+.navbar{
+    margin-bottom: -21px;
+}
+
+.navbar .br{
+    color: white;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    background-color: #e58f00;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.navbar a{
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+.navbar a:hover{
+    color: #FF4C29;
+}
+.icons div{
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    display: none;
+}
+.icons div:hover{
+    cursor: pointer;
+}
+
+.icons a{
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border: 1px solid orange;
+    border-radius: 10px;
+    font-size: 18px;
+   transition: 0.5s;
+   display: inline-block;
+}
+.contact-btn:hover{
+    transform: scale(1.1);
+    background: var(--btn-color);
+    border: 1px solid white;
+}
+
+.navbar.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+/*rendang*/
+
+.masakan{
+    width: 100%;
+    background-color: var(--about-sec);
+    padding-top: 120px;
+    padding-left: 110px;
+    padding-right: 200px;
+}
+
+.masakan .menu-ini{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.masakan .judul-makanan{
+    color: var(--btn-color);
+    font-size: 25px;
+    padding: 0.5rem 0;
+    margin-bottom: 5px;
+}
+
+.masakan img{
+    width: 41%;
+    margin-right: 20px;
+    margin-bottom: 110px;
+}
+.penjelasan{
+    text-align: justify;
+}
+.penjelasan p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.penjelasan h2{
+    font-size: 25px;
+    color: #e58f00;
+    border-top: 2px solid #e58f00;
+    padding-top: 20px;
+}
+
+.resep {
+    display: flex;
+    margin-bottom: 40px;
+    padding-top: 50px;
+    
+}
+
+.resep h4{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.bahan{
+    color: #ffff;
+    padding-left: 25px;
+    margin-right: 30px;
+    line-height: 21px;
+    margin-left: 30px;
+}
+
+.bahan ul li {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 2.8rem;
+}
+
+
+.bahan2{
+    color: #ffff;
+    padding-left: 25px;
+    line-height: 21px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.bahan2 h4{
+    font-size: 18px;
+}
+.bahan2 ul li {
+    font-size: 18px;
+    line-height: 2.8rem;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.cara-pembuatan {
+    color: #fff;
+    padding-left: 25px;
+    font-size: 20px;
+    padding-bottom: 50px;
+    line-height: 21px;
+    margin-left: 60px;
+    line-height: 2.8rem;
+}
+.cara-pembuatan h4{
+    font-size: 20px;
+}
+.cara-pembuatan ol li{
+    font-size: 18px;
+}
+footer{
+    position: relative;
+    bottom: 0px;
+    background: #1d1d23;
+    width: 100%;
+    padding-top: 5px;
+    color: white;
+    border-top: 2px solid #e58f00;
+    
+}
+
+.footer-bottom{
+    background: #1d1d23;
+    width: 100%;
+    padding: 8px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+
