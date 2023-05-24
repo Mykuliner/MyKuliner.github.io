@@ -47,8 +47,7 @@ html{
 
 nav {
     display: block;
-    justify-content: center;
-    margin-right: 23%;
+
 }
 
 nav ul {
@@ -60,6 +59,8 @@ nav ul {
 
 .navbar{
     margin-bottom: -22px;
+    justify-content: center;
+    margin-right: 23%;
 }
 
 .navbar .br{

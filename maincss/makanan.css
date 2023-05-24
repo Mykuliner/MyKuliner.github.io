@@ -57,6 +57,8 @@ nav ul {
 
 .navbar{
     margin-bottom: -21px;
+    justify-content: center;
+    margin-right: 23%;
 }
 
 .navbar .br{
